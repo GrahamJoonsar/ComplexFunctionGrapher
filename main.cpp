@@ -8,6 +8,7 @@ const std::complex<double> i(0, 1);
 // you can use this instead of the normal verbose way
 #define c(a, b) std::complex<double>((double)(a), (double)(b))
 
+// This is the function you should change
 std::complex<double> function(std::complex<double> z){
     return (z*z);
 }
